@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.button_style{
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+.button_style:disabled{
+  cursor: not-allowed;
+  opacity: 0.5;
+}
